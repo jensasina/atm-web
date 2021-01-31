@@ -11,7 +11,7 @@ import th.ac.ku.atm.model.Customer;
 import th.ac.ku.atm.service.CustomerService;
 
 @Controller
-@RequestMapping("/customer") // -> อะไรที่เป็น customer มาเข้า class นี้หมดเลย
+@RequestMapping("/customer")
 public class CustomerController {
 
     // Responsible for handle user request
